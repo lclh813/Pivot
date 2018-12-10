@@ -1,30 +1,23 @@
 # Pivot
-| Index  | Fruit_Type_ID  | Fruit_Type | Fruit_Name | 
-| :---:  | :---           | :---       | 
-|      1 | APPL           | Apple      |
-|      2 | GRAP           | Grape      |
-|      3 | KIWI           | Kiwifruit  |
-
-| Index  | Store   | Order | Fruit_Name_ID | Fruit_Name         | Qty  |  
-| :---:  | ---     | :---: | ---           | ---                | ---: | 
-|      1 | Store 1 |     1 | APPL001       | Red Delicious      |  100 | 
-|      2 | Store 1 |     2 | APPL002       | Royal Gala         |   50 |  
-|      3 | Store 1 |     3 | GRAP001       | Golden Muscat      |   30 |  
-|      4 | Store 2 |     1 | KIWI001       | Sungold Kiwifruit  |  200 |  
-|      5 | Store 3 |     1 | APPL003       | Fuji               |  150 | 
-|      6 | Store 3 |     2 | GRAP002       | Red Globe          |   80 |  
-|      7 | Store 4 |     1 | APPL002       | Royal Gala         |   20 |  
-|      8 | Store 4 |     2 | APPL003       | Fuji               |   30 |  
+### Fruits
+| Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | 
+| :---           | :---       | :---          | :---              |
+| APPL           | Apple      | APPL001       | Red Delicious     |
+| APPL           | Apple      | APPL002       | Royal Gala        |
+| APPL           | Apple      | APPL003       | Fuji              |
+| GRAP           | Grape      | GRAP001       | Golden Muscat     |
+| GRAP           | Grape      | GRAP002       | Red Globe         |
+| KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit |
 
 ### Data 1. Original
-| Date       | Farm      | Total | Apple Qty | Apple % | Grape Qty | Grape % | ...   | Pear Qty | Pear % |
-| :---:      | :---      | ---:  | :---:     | :---:   | :---:     | :---:   | :---: | :---:    | :---:  |        
-| 2016/01/01 | Farm 1    | 100   | 20        | 20%     | 30        | 30%     | ...   | 10       | 10%    |
-| 2016/01/01 | Farm 2    | 200   | 20        | 10%     | 40        | 20%     | ...   | 60       | 30%    |
-| ...        | ...       | ...   | ...       | ...     | ...       | ...     | ...   | ...      | ...    |
-| 2017/12/31 | Farm 3-1  | 500   | 100       | 20%     | 100       | 20%     | ...   | 50       | 10%    |
-| 2017/12/31 | Farm 3-2  | 400   | 100       | 25%     | 40        | 10%     | ...   | 20       | 5%     |
-| 2017/12/31 | Farm 4    | 100   | 10        | 10%     | 40        | 40%     | ...   | 5        | 5%     |
+| Date       | Farm      | Total | APPL001 Qty | APPL001 % | APPL002 Qty | APPL002 % | ...   | KIWI001 Qty | KIWI001 % |
+| :---:      | :---      | ---:  | :---:       | :---:     | :---:       | :---:     | :---: | :---:       | :---:     |        
+| 2016/01/01 | Farm 1    | 100   | 20          | 20%       | 30          | 30%       | ...   | 10          | 10%       |
+| 2016/01/01 | Farm 2    | 200   | 20          | 10%       | 40          | 20%       | ...   | 60          | 30%       |
+| ...        | ...       | ...   | ...         | ...       | ...         | ...       | ...   | ...         | ...       |
+| 2017/12/31 | Farm 3-1  | 500   | 100         | 20%       | 100         | 20%       | ...   | 50          | 10%       |
+| 2017/12/31 | Farm 3-2  | 400   | 100         | 25%       | 40          | 10%       | ...   | 20          | 5%        |
+| 2017/12/31 | Farm 4    | 100   | 10          | 10%       | 40          | 40%       | ...   | 5           | 5%        |
 
 ### Data 2. Drop
 | Date       | Farm      | Apple | Banana | ... | Pear | 
