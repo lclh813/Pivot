@@ -26,6 +26,7 @@ To create a table to better know how many and from where the listed fruits are p
 | :---:         | :---      | ---:      | ---:        | ---:      | ---:     | ---:   | ---:        | ---:      |       
 | 2016/01/01    | Farm 1    | 100       | 20          | 20%       | 70       | 70%    | 10          | 10%       |
 | 2016/01/01    | Farm 2    | 200       | 20          | 10%       | 120      | 60%    | 60          | 30%       |
+
 | Purchase Date | Farm      | Total Qty | APPL002 Qty | APPL002 % | GRAP Qty | GRAP % | KIWI Qty    | KIWI %    |
 | :---:         | :---      | ---:      | ---:        | ---:      | ---:     | ---:   | ---:        | ---:      |   
 | 2017/12/31    | Farm 3-1  | 500       | 100         | 20%       | 350      | 70%    | 50          | 10%       |
