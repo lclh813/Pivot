@@ -31,7 +31,8 @@ To create a table as follows to clarify how many and from where the listed fruit
 | 2017/12/31 | Farm 4    | 100       | 10       | 10%    | 85       | 85%    | 5           | 5%        |
 
 ## Part 3. Outline
-### 3.1. Drop Columns that are not Needed for Further Analysis
+### 3.1. Drop Columns 
+- Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%``` 
 - Tool: ```drop```
 
 | Date       | Farm      | APPL | GRAP | KIWI | 
