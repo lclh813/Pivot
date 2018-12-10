@@ -1,7 +1,7 @@
 # Pivot
 ### Data
-| Date | Store | Store | Total | Apple | Apple % | Banana | Banana % | Cranberry | Cranberry % | ... | Pineapple | Pineapple % |
-|:---: |:---:  |:---:  |:---:  |:---:  |:---:    |:---:   |:---:     |:---:      |:---:        |:---:|:---:      |:---:        |
+| Date | Store | Store | Total | Apple | Apple % | Banana | Banana % | ... | Pineapple | Pineapple % |
+|:---: |:---:  |:---:  |:---:  |:---:  |:---:    |:---:   |:---:     |:---:|:---:      |:---:        |
 
 | Date       | Store   | Fruit_Name      | Fruit_Name_ID | Fruit_Name         | Qty  |  
 | :---:      | ---     | :---:           | ---           | ---                | ---: | 
