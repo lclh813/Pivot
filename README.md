@@ -1,4 +1,10 @@
 # Pivot
+| Index  | Fruit_Type_ID  | Fruit_Type | 
+| :---:  | :---           | :---       | 
+|      1 | APPL           | Apple      |
+|      2 | GRAP           | Grape      |
+|      3 | KIWI           | Kiwifruit  |
+
 ### Data 1. Original
 | Date       | Farm      | Total | Apple Qty | Apple % | Grape Qty | Grape % | ...   | Pear Qty | Pear % |
 | :---:      | :---      | ---:  | :---:     | :---:   | :---:     | :---:   | :---: | :---:    | :---:  |        
