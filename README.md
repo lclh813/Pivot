@@ -2,9 +2,8 @@
 ### Objective
 To create a table as follows to clarify how many and from where the listed fruits are purchased from 2016 to 2017.
 
-Table: Order History of the Fruit Shop  
-Year: 2016 - 2017
-==========================================
+- Table: Order History of the Fruit Shop  
+- Year: 2016 - 2017
 
 | Fruit_Type_ID  | Farm 1 | Farm 2 | Farm 3 | Farm 4 |
 | :---           | ---:   | ---:   | ---:   | ---:   |
