@@ -1,5 +1,5 @@
 # Pivot
-| Index  | Fruit_Type_ID  | Fruit_Type | 
+| Index  | Fruit_Type_ID  | Fruit_Type | Fruit_Name | 
 | :---:  | :---           | :---       | 
 |      1 | APPL           | Apple      |
 |      2 | GRAP           | Grape      |
