@@ -1,14 +1,14 @@
 # Pivot Analysis
 ## Part 1. Objective
-To create a table to better know how many and from where the listed fruits are purchased from 2016 to 2017.
+To create a table as follows on a ```monthly``` basis to better know ```how many``` and ```from where``` the listed fruits are purchased from 2016 to 2017.
 
 - Table: Order History of the Fruit Shop  
-- Year: 2016 - 2017
+- Time: Jan-2016
 
-| Fruit_Type_ID  | Fruit_Type_ID  | Farm 1 | Farm 2 | Farm 3 | Farm 4 |
+| Fruit_Name     | Farm 1 | Farm 2 | Farm 3 | Farm 4 |
 | :---           | ---:   | ---:   | ---:   | ---:   |
 | Red Delicious  | 10,000 | 11,000 | 15,000 | 7,000  |
-| Royal Gala     |
+| Royal Gala     | 9,000  | 10,000 | 8,000  | 6,000  |
 | Golden Muscat  | 12,000 | 10,000 | 8,000  | 10,000 |
 | KIWI           | 13,000 | 9,000  | 5,000  | 11,000 |
 
@@ -22,16 +22,16 @@ To create a table to better know how many and from where the listed fruits are p
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
 
 ### 2.2. Original Data
-| Purchase Date | Farm      | Total Qty | APPL001 Qty | APPL001 % | GRAP Qty | GRAP % | KIWI Qty    | KIWI %    |
-| :---:         | :---      | ---:      | ---:        | ---:      | ---:     | ---:   | ---:        | ---:      |       
-| 2016/01/01    | Farm 1    | 100       | 20          | 20%       | 70       | 70%    | 10          | 10%       |
-| 2016/01/01    | Farm 2    | 200       | 20          | 10%       | 120      | 60%    | 60          | 30%       |
+| Purchase Date | Farm      | Total Qty | APPL001 | APPL001 % | GRAP | GRAP % | KIWI | KIWI % |
+| :---:         | :---      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |       
+| 2016/01/01    | Farm 1    | 100       | 20      | 20%       | 70   | 70%    | 10   | 10%    |
+| 2016/01/01    | Farm 2    | 200       | 20      | 10%       | 120  | 60%    | 60   | 30%    |
 
-| Purchase Date | Farm      | Total Qty | APPL002 Qty | APPL002 % | GRAP Qty | GRAP % | KIWI Qty    | KIWI %    |
-| :---:         | :---      | ---:      | ---:        | ---:      | ---:     | ---:   | ---:        | ---:      |   
-| 2017/12/31    | Farm 3-1  | 500       | 100         | 20%       | 350      | 70%    | 50          | 10%       |
-| 2017/12/31    | Farm 3-2  | 400       | 100         | 25%       | 280      | 70%    | 20          | 5%        |
-| 2017/12/31    | Farm 4    | 100       | 10          | 10%       | 85       | 85%    | 5           | 5%        |
+| Purchase Date | Farm      | Total Qty | APPL002 | APPL002 % | GRAP | GRAP % | KIWI | KIWI % |
+| :---:         | :---      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |   
+| 2017/12/31    | Farm 3-1  | 500       | 100     | 20%       | 350  | 70%    | 50   | 10%    |
+| 2017/12/31    | Farm 3-2  | 400       | 100     | 25%       | 280  | 70%    | 20   | 5%     |
+| 2017/12/31    | Farm 4    | 100       | 10      | 10%       | 85   | 85%    | 5    | 5%     |
 
 ## Part 3. Outline
 ### 3.1. Drop Columns 
@@ -61,7 +61,11 @@ To create a table to better know how many and from where the listed fruits are p
 | 2017/12/31    | Farm 4    | GRAP          | 85  |
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
-### 3.3. Rearrange 
+### 3.3. Rearrange the Order of Columns and Rows
+- Rename Columns: ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
+- Sum up Rows: Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
+- 
+
 Pivot Analysis
 - 
 - Tool: Python ```
