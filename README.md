@@ -61,10 +61,10 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 4    | GRAP          | 85  |
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
-### 3.3. Rearrange the Order of Columns and Rows
+### 3.3. Rearrange Columns and Rows
 - Rename Columns: ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
 - Sum up Rows: Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
-- 
+- Tool: Python ```if``` ```+```
 
 Pivot Analysis
 - 
