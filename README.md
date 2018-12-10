@@ -22,29 +22,25 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
 
 ### 2.2. Original Data
-| Purchase Date | Farm                      | Total Qty | APPL001 | APPL001 % | GRAP | GRAP % | KIWI | KIWI % |
-| :---:         | :---                      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |       
-| 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100       | 20      | 20%       | 70   | 70%    | 10   | 10%    |
-| 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200       | 20      | 10%       | 120  | 60%    | 60   | 30%    |
-| ...           | ... &nbsp;&nbsp;&nbsp;    | ...       | ..      | ...       | ...  | ...    | ...  | ...    |
-
-| Purchase Date | Farm      | Total Qty | APPL002 | APPL002 % | GRAP | GRAP % | KIWI | KIWI % |
-| :---:         | :---      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   | 
-| ...           | ...       | ...       | ..      | ...       | ...  | ...    | ...  | ...    |
-| 2017/12/31    | Farm 3-1  | 500       | 100     | 20%       | 350  | 70%    | 50   | 10%    |
-| 2017/12/31    | Farm 3-2  | 400       | 100     | 25%       | 280  | 70%    | 20   | 5%     |
-| 2017/12/31    | Farm 4    | 100       | 10      | 10%       | 85   | 85%    | 5    | 5%     |
+| Purchase Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
+| :---:         | :---      | ---:      | ---: | ---:   | ---: | ---:   | ---: | ---:   |       
+| 2016/01/01    | Farm 1    | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
+| 2016/01/01    | Farm 2    | 200       | 20   | 10%    | 120  | 60%    | 60   | 30%    |
+| ...           | ...       | ...       | ...  | ...    | ...  | ...    | ...  | ...    |
+| 2017/12/31    | Farm 3-1  | 500       | 100  | 20%    | 350  | 70%    | 50   | 10%    |
+| 2017/12/31    | Farm 3-2  | 400       | 100  | 25%    | 280  | 70%    | 20   | 5%     |
+| 2017/12/31    | Farm 4    | 100       | 10   | 10%    | 85   | 85%    | 5    | 5%     |
 
 ## Part 3. Outline
 ### 3.1. Drop Columns 
 - Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
 - Tool: Python ```drop```
 
-| Purchase Date | Farm      | APPL001 | GRAP | KIWI | 
-|:---:          |:---       | ---:    | ---: | ---: | 
-| 2016/01/01    | Farm 1    | 20      | 70   | 30   |
-| 2016/01/01    | Farm 2    | 20      | 120  | 60   |
-
+| Purchase Date | Farm      | APPL | GRAP | KIWI | 
+|:---:          |:---       | ---: | ---: | ---: | 
+| 2016/01/01    | Farm 1    | 20   | 70   | 30   |
+| 2016/01/01    | Farm 2    | 20   | 120  | 60   |
+| ...           | ...       | ...  | ...  | ...  |
 | 2017/12/31    | Farm 3-1  | 100  | 350  | 50   | 
 | 2017/12/31    | Farm 3-2  | 100  | 280  | 20   |
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
