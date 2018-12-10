@@ -4,6 +4,7 @@ To create a table as follows to clarify how many and from where the listed fruit
 
 Table: Order History of the Fruit Shop  
 Year: 2016 - 2017
+==========================================
 
 | Fruit_Type_ID  | Farm 1 | Farm 2 | Farm 3 | Farm 4 |
 | :---           | ---:   | ---:   | ---:   | ---:   |
