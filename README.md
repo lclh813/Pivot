@@ -12,7 +12,7 @@ To create a table as follows to clarify how many and from where the listed fruit
 | KIWI           | 13,000 | 9,000  | 5,000  | 11,000 |
 
 ## Part 2. Data
-### 2.1. Reference: Fruits Purchased by the Fruit Shop
+### 2.1. Fruits Purchased by the Fruit Shop
 | Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Purchase Year |
 | :---           | :---       | :---          | :---              | :---          |
 | APPL           | Apple      | APPL001       | Red Delicious     | 2016          |
