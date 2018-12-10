@@ -23,8 +23,8 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 
 ### 2.2. Original Data
 | Purchase Date | Farm      | Total Qty | APPL001 | APPL001 % | GRAP | GRAP % | KIWI | KIWI % |
-| :---:         | :---      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |       
-| 2016/01/01    | Farm 1&nbsp;&nbsp;&nbsp;&nbsp;| 100       | 20      | 20%       | 70   | 70%    | 10   | 10%    |
+| :---:         | :---&nbsp; &nbsp; &nbsp; &nbsp;      | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |       
+| 2016/01/01    | Farm 1| 100       | 20      | 20%       | 70   | 70%    | 10   | 10%    |
 | 2016/01/01    | Farm 2&nbsp;&nbsp;&nbsp;&nbsp;| 200       | 20      | 10%       | 120  | 60%    | 60   | 30%    |
 | ...           | ...       | ...       | ..      | ...       | ...  | ...    | ...  | ...    |
 
