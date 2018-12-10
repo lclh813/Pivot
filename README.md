@@ -1,5 +1,6 @@
 # Pivot
 ### Data 1. Original
+| Span <td colspan=3>triple
 | Date       | Farm      | Total | Apple | Apple % | Banana | Banana % | Green Kiwi | Green Kiwi % | Sungold Kiwi | Sungold Kiwi % |
 |:---:       |:---       | ---:  | ---:  | ---:    | ---:   | ---:     | ---:       | ---:         | ---:         | ---:           |
 | 2016/01/01 | Farm 1    | 100   | 20    | 20%     | 30     | 30%      | 10         | 10%          |
