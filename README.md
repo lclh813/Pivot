@@ -48,7 +48,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
 
 ### 3.2. Reshape Dataframe
-- Move ```Fruit_Type_ID``` to the row axis while ```Purchase Date``` and ```Farm``` remain at the header. 
+- Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase Date``` and ```Farm``` remain at the header. 
 - Tool: Python ```melt``` 
  
 | Purchase Date | Farm      | Fruit_Type_ID | Qty |
@@ -61,20 +61,13 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 4    | GRAP          | 85  |
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
-### 3.3. Rearrange Columns and Rows
-- Rename Columns: ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
-- Sum up Rows: Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
-- Tool: Python ```if``` ```+```
-
-Pivot Analysis
-- 
-- Tool: Python ```
-
-
-
-
-
-
-
-
-
+### 3.3. Pivot Analysis
+#### 3.3.1. Drop Column
+- Drop ```Purchase Date``` which is of no use for pivot analysis. 
+#### 3.3.2. Create Pivot Table
+- Set ```Fruit_Type_ID``` at row axis and ```Farm``` at the column axis. 
+#### 3.3.3. Rename Columns
+- ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
+#### 3.3.4. Sum up Rows
+- Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
+- Tool: Python ```drop``` ```if``` ```pivot_table```
