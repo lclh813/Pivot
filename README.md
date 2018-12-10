@@ -1,5 +1,6 @@
 # Pivot
 ### Data 1. Original
+
 | Date       | Farm      | Total | Apple Qty | Apple % | Banana Qty | Banana % | ... | Pineapple | Pineapple % |
 |:---:       |:---       | ---:  | ---:      | ---:    | ---:       | ---:     | ... | ---:      | ---:        |        
 | 2016/01/01 | Farm 1    | 100   | 20        | 20%     | 30         | 30%      | ... | 10        | 10%         |
