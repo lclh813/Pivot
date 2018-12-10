@@ -30,7 +30,10 @@ To create a table as follows to clarify how many and from where the listed fruit
 | 2017/12/31 | Farm 3-2  | 400       | 100      | 25%    | 280      | 70%    | 20          | 5%        |
 | 2017/12/31 | Farm 4    | 100       | 10       | 10%    | 85       | 85%    | 5           | 5%        |
 
-### Step 2. Drop Columns that are not Needed for Further Analysis
+## Part 3. Outline
+### 3.1. Drop Columns that are not Needed for Further Analysis
+- Tool: ```drop```
+
 | Date       | Farm      | APPL | GRAP | KIWI | 
 |:---:       |:---       | ---: | ---: | ---: | 
 | 2016/01/01 | Farm 1    | 20   | 70   | 30   |
@@ -40,8 +43,9 @@ To create a table as follows to clarify how many and from where the listed fruit
 | 2017/12/31 | Farm 3-2  | 100  | 280  | 20   |
 | 2017/12/31 | Farm 4    | 10   | 85   | 5    |
 
-### Step 3. Reshape Dataframe 
-### 3.1. ```Date``` and ```Fruit_Type_ID```  
+### 3.2. Reshape Dataframe 
+ ```Date``` and ```Fruit_Type_ID```  
+ 
 | Date       | Farm      | Fruit_Type_ID | Qty |
 | :---:      | ---       | :---          | ---:| 
 | 2016/01/01 | Farm 1    | APPL          | 20  | 
