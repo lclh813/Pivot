@@ -69,3 +69,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 #### 3.3.4. Sum up Rows
 - Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
 - Tool: Python ```drop``` ```if``` ```pivot_table```
+
+## Part 4. Steps
+### Step 1. Preparation
+[1.Import Library]
