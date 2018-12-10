@@ -14,7 +14,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 
 ## Part 2. Data
 ### 2.1. Fruits Purchased by the Fruit Shop
-| Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Purchase Year |
+| Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Purchase_Year |
 | :---           | :---       | :---          | :---              | :---          |
 | APPL           | Apple      | APPL001       | Red Delicious     | 2016          |
 | APPL           | Apple      | APPL002       | Royal Gala        | 2017          |
@@ -22,7 +22,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
 
 ### 2.2. Original Data
-| Purchase Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
+| Purchase_Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
 | :---:         | :---      | ---:      | ---: | ---:   | ---: | ---:   | ---: | ---:   |       
 | 2016/01/01    | Farm 1    | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
 | 2016/01/01    | Farm 2    | 200       | 20   | 10%    | 120  | 60%    | 60   | 30%    |
@@ -36,7 +36,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
 - Tool: Python ```drop```
 
-| Purchase Date | Farm      | APPL | GRAP | KIWI | 
+| Purchase_Date | Farm      | APPL | GRAP | KIWI | 
 |:---:          |:---       | ---: | ---: | ---: | 
 | 2016/01/01    | Farm 1    | 20   | 70   | 30   |
 | 2016/01/01    | Farm 2    | 20   | 120  | 60   |
@@ -49,7 +49,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase Date``` and ```Farm``` remain at the header. 
 - Tool: Python ```melt``` 
  
-| Purchase Date | Farm      | Fruit_Type_ID | Qty |
+| Purchase_Date | Farm      | Fruit_Type_ID | Qty |
 | :---:         | ---       | :---          | ---:| 
 | 2016/01/01    | Farm 1    | APPL          | 20  | 
 | 2016/01/01    | Farm 1    | GRAP          | 70  |
@@ -61,7 +61,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 
 ### 3.3. Pivot Analysis
 #### 3.3.1. Drop Column
-- Drop ```Purchase Date``` which is of no use for pivot analysis. 
+- Drop ```Purchase_Date``` which is of no use for pivot analysis. 
 #### 3.3.2. Create Pivot Table
 - Set ```Fruit_Type_ID``` at row axis and ```Farm``` at the column axis. 
 #### 3.3.3. Rename Columns
