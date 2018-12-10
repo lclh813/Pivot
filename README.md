@@ -13,6 +13,7 @@ To create a table as follows to clarify how many and from where the listed fruit
 
 ### 2. Datasets
 - List: Fruits Purchased by the Fruit Shop
+
 | Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Purchase Year |
 | :---           | :---       | :---          | :---              | :---          |
 | APPL           | Apple      | APPL001       | Red Delicious     | 2016          |
@@ -21,6 +22,7 @@ To create a table as follows to clarify how many and from where the listed fruit
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
 
 - Original Data
+
 | Date       | Farm      | Total Qty | APPL Qty | APPL % | GRAP Qty | GRAP % | KIWI Qty    | KIWI %    |
 | :---:      | :---      | ---:      | ---:     | ---:   | ---:     | ---:   | ---:        | ---:      |       
 | 2016/01/01 | Farm 1    | 100       | 20       | 20%    | 70       | 70%    | 10          | 10%       |
