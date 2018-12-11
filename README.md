@@ -110,7 +110,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 #### 3.2.3. Rename Columns
 - ***Apple*** purchased in 2016 is ***Red Delicious*** and ***Royal Gala*** in 2017. 
 #### 3.2.4. Sum up Rows
-- Add ***Farm 3-1*** and ***Farm 3-2** together to get ***Farm3***.
+- Add ***Farm 3-1*** and ***Farm 3-2*** together to get ***Farm3***.
 - Tool: Python ```drop``` ```if``` ```pivot_table```
 
 ## Part 4. Steps
