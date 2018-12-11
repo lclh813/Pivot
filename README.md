@@ -32,7 +32,6 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 ### 2.2. Original Data
 - Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
-
 | Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:   | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
 | 2016/01/01    | Farm 1  | 100    | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10    | 10%   |
@@ -45,20 +44,11 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:   | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ...           | ...     | ...    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
-| 2017/12/31    | Farm 1  | 500    | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10    | 10%   |
-| 2017/12/31    | Farm 2  | 400    | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
-| 2017/12/31    | Farm 3  | 300    | 30    | 10%   | 60    | 20%   | 105   | 35%   | 105   | 35%   |
-| 2017/12/31    | Farm 4  | 200    | 40    | 10%   | 60    | 15%   | 200   | 50%   | 100   | 25%   |
-| Dec-2017      | -       | 15,000 | 1,500 | 10%   | 1,500 | 10%   | 6,000 | 40%   | 6,000 | 40%   |
-
-
-| Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
-| :---:         | :---:                     | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
-| ...           | ...       | ...       | ...     | ...    | ...  | ...    | ...    | ...    |
-| 2017/12/31    | Farm 3-1  | 500       | 100     | 20%    | 350  | 70%    | 50     | 10%    |
-| 2017/12/31    | Farm 3-2  | 400       | 100     | 25%    | 280  | 70%    | 20     | 5%     |
-| 2017/12/31    | Farm 4    | 100       | 10      | 10%    | 85   | 85%    | 5      | 5%     |
-| Dec-2017      | -         | 3,000     | 900     | 30%    | 600  | 20%    | 1,500  | 50%    |
+| 2017/12/31    | Farm 1  | 500    | 100   | 20%   | 200   | 40%   | 150   | 30%   | 50    | 10%   |
+| 2017/12/31    | Farm 2  | 400    | 160   | 40%   | 80    | 20%   | 80    | 20%   | 80    | 20%   |
+| 2017/12/31    | Farm 3  | 300    | 90    | 30%   | 30    | 10%   | 75    | 25%   | 105   | 35%   |
+| 2017/12/31    | Farm 4  | 200    | 20    | 10%   | 30    | 15%   | 100   | 50%   | 50    | 25%   |
+| Dec-2017      | -       | 18,000 | 9,000 | 50%   | 2,000 | 11%   | 3,000 | 17%   | 4,000 | 22%   |
 
 ## Part 3. Outline
 ### 3.1. Drop Columns 
