@@ -95,6 +95,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 #### 3.1.3.1. Conversion to String
 #### 3.1.3.2. Remove Thousand Separator
 #### 3.1.3.3. Conversion to Integer
+#### 3.1.4. Output Dataset for Analysis
 
 ### 3.2. Pivot Analysis
 #### 3.2.1. Drop Column
