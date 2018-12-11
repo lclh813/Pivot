@@ -2,8 +2,8 @@
 ## Part 1. Objective
 To create a table as follows on a ```monthly``` basis to better know ```how many``` and ```from where``` the listed fruits are purchased from 2016 to 2017.
 
-> Table: Order History of the Fruit Shop   
-> Time: Jan-2016
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: Jan-2016***
 
 | Fruit_Type | Farm 1  | Farm 2  | Farm 3-1 | Farm 4  |
 | :---       | ---:    | ---:    | ---:     | ---:    |
@@ -11,8 +11,8 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
 | Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
 
-> Table: Order History of the Fruit Shop   
-> Time: Dec-2017
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: Dec-2017***
 
 | Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
 | :---       | ---:    | ---:    | ---:     | ---:    |
