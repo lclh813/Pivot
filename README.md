@@ -100,7 +100,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 - Tool: Python ```apply``` ```lambda```
 #### 3.1.3.3. Conversion to Integer
 - Tool: Python ```astype```
-#### 3.1.4. Output Dataset for Analysis
+#### 3.1.4. Export Dataset for Analysis
 - Tool: Python ```groupby``` ```to_csv```
 
 ### 3.2. Pivot Analysis
@@ -113,7 +113,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 - ***Apple*** purchased in 2016 is ***Red Delicious*** and ***Royal Gala*** in 2017. 
 #### 3.2.4. Sum up Rows
 - Add ***Farm 3-1*** and ***Farm 3-2*** together to get ***Farm3***.
-- Tool: Python ```drop``` ```if``` ```pivot_table```
+- Tool: Python ```if``` ```pivot_table```
 
 ## Part 4. Steps
 ### Step 1. Preparation
