@@ -65,7 +65,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 ## Part 3. Outline
 ### 3.1. Clean Dataset
 ### 3.1.1. Drop Columns 
-- Drop columns that are not needed for further analysis which include ***Total Qty*** and those containing ***%***. 
+- Drop columns that are not needed for further analysis which include ***Total Qty*** and those containing ***%*** 
 - Tool: Python ```drop```
 
 | Purchase_Date | Supplier  | APPL001 | APPL002 | GRAP | KIWI | 
