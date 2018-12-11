@@ -117,6 +117,6 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 
 ## Part 4. Steps
 ### Step 1. Preparation
-[1.Import Library]
+[1.Import Library](https://github.com/lclh813/Pivot/blob/master/1_ImportLibrary.ipynb)
 
 
