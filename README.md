@@ -1,6 +1,6 @@
 # Pivot Analysis
 ## Part 1. Objective
-To create a table as follows on a ```monthly``` basis to better know ```how many``` and ```from where``` the listed fruits are purchased from 2016 to 2017.
+Create a table as follows on a ```monthly``` basis to better know ```how many``` and ```from where``` the listed fruits are purchased from 2016 to 2017.
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: Jan-2016***
