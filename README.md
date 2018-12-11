@@ -50,7 +50,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2016/01/01    | Farm 2  | 200    | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
 | 2016/01/01    | Farm 3  | 300    | 30    | 10%   | 60    | 20%   | 105   | 35%   | 105   | 35%   |
 | 2016/01/01    | Farm 4  | 400    | 40    | 10%   | 60    | 15%   | 200   | 50%   | 100   | 25%   |
-| .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br>  | .<br>.<br>.<br>  | .<br>.<br>.<br> | .<br>.<br>.<br>  | .<br>.<br>.<br>  | .<br>.<br>.<br> |
+| ...           | ...     | ...    | ...   | ...   | ...   | ...   | ....  | ...   | ...   | ...   |
 | Jan-2016      | -       | 15,000 | 1,500 | 10%   | 1,500 | 10%   | 6,000 | 40%   | 6,000 | 40%   |
 
 | Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
@@ -73,9 +73,8 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2016/01/01    | Farm 1    | 10      | 10      | 70   | 10   |
 | 2016/01/01    | Farm 2    | 10      | 10      | 120  | 60   |
 | ...           | ...       | ...     | ...     | ...  | ...  |
-| 2017/12/31    | Farm 3    | 100     | 350  | 50   | 
-
-| 2017/12/31    | Farm 4    | 10   | 85   | 5    |
+| 2017/12/31    | Farm 3    | 90      | 30      | 75   | 105  |
+| 2017/12/31    | Farm 4    | 20      | 30      | 100  | 50   |
 
 ### 3.1.2. Reshape Dataframe
 - Prepare to move ***Fruit_Name_ID*** to the row axis while ***Purchase_Date*** and ***Supplier*** remain at the header. 
