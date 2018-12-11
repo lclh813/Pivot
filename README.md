@@ -33,13 +33,13 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 
 > ***2.1.2. Info 2. Order History***
 
-| Supplier | Purchase_Year |
-| :---     | :---          |
-| Farm 1   | 2016, 2017    |
-| Farm 2   | 2016, 2017    |
-| Farm 3-1 | 2016          |
-| Farm 3-2 | 2017          |
-| Farm 4   | 2016, 2017    |
+| Supplier | Purchase_Year | Supplier Type |
+| :---     | :---          | :---          |
+| Farm 1   | 2016, 2017    | Regular       | 
+| Farm 2   | 2016, 2017    | Regular       |
+| Farm 3-1 | 2016          | Non-Regular   | 
+| Farm 3-2 | 2017          | Non-Regular   | 
+| Farm 4   | 2016, 2017    | Regular       |
 
 ### 2.2. Original Data
 - ***Monthly Data:*** There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
