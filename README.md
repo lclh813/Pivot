@@ -31,7 +31,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 
 
 ### 2.1.2. Info 2. Order History
-| Farm     | Purchase_Year |
+| Supplier | Purchase_Year |
 | :---     | :---          |
 | Farm 1   | 2016, 2017    |
 | Farm 2   | 2016, 2017    |
