@@ -46,7 +46,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
 
 ### 3.2. Reshape Dataframe
-- Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase Date``` and ```Farm``` remain at the header. 
+- Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase_Date``` and ```Farm``` remain at the header. 
 - Tool: Python ```melt``` 
  
 | Purchase_Date | Farm      | Fruit_Type_ID | Qty |
