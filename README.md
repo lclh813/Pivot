@@ -1,6 +1,6 @@
 # Pivot Analysis
 ## Part 1. Objective
-Create a table as follows on a ```monthly``` basis to better know ```how many``` and ```from where``` the listed fruits are purchased from 2016 to 2017.
+Create a table as follows on a ***monthly*** basis to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017.
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: Jan-2016***
@@ -65,7 +65,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 ## Part 3. Outline
 ### 3.1. Clean Dataset
 ### 3.1.1. Drop Columns 
-- Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
+- Drop columns that are not needed for further analysis which include ***Total Qty*** and those containing ***%***. 
 - Tool: Python ```drop```
 
 | Purchase_Date | Supplier  | APPL001 | APPL002 | GRAP | KIWI | 
@@ -78,7 +78,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
 
 ### 3.1.2. Reshape Dataframe
-- Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase_Date``` and ```Farm``` remain at the header. 
+- Prepare to move ***Fruit_Type_ID*** to the row axis while ***Purchase_Date*** and ***Supplier*** remain at the header. 
 - Tool: Python ```melt``` 
  
 | Purchase_Date | Supplier  | Fruit_Type_ID | Qty |
@@ -92,7 +92,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
 ### 3.1.3. Data Type Conversion
-- Records in Column ```"Qty"``` turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers to proceed further calculation.
+- Records in Column ***Qty*** turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers to proceed further calculation.
 #### 3.1.3.1. Conversion to String
 - Tool: Python ```astype```
 #### 3.1.3.2. Remove Thousand Separator
@@ -104,13 +104,13 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 
 ### 3.2. Pivot Analysis
 #### 3.2.1. Drop Column
-- Drop ```Purchase_Date``` which is of no use for pivot analysis. 
+- Drop ***Purchase_Date*** which is of no use for pivot analysis. 
 #### 3.2.2. Create Pivot Table
-- Set ```Fruit_Type_ID``` at row axis and ```Farm``` at the column axis. 
+- Set ***Fruit_Type_ID*** at row axis and ***Supplier*** at the column axis. 
 #### 3.2.3. Rename Columns
-- ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
+- ***Apple*** purchased in 2016 is ***Red Delicious*** and ***Royal Gala*** in 2017. 
 #### 3.2.4. Sum up Rows
-- Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
+- Add ***Farm 3-1*** and ***Farm 3-2** together to get ***Farm3***.
 - Tool: Python ```drop``` ```if``` ```pivot_table```
 
 ## Part 4. Steps
