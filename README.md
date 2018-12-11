@@ -5,12 +5,12 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Table: Order History of the Fruit Shop  
 - Time: Jan-2016
 
-| Fruit_Name     | Farm 1 | Farm 2 | Farm 3 | Farm 4 |
-| :---           | ---:   | ---:   | ---:   | ---:   |
-| Red Delicious  | 10,000 | 11,000 | 15,000 | 7,000  |
-| Royal Gala     | 9,000  | 10,000 | 8,000  | 6,000  |
-| Golden Muscat  | 12,000 | 10,000 | 8,000  | 10,000 |
-| KIWI           | 13,000 | 9,000  | 5,000  | 11,000 |
+| Fruit_Name     | Farm 1  | Farm 2  | Farm 3  | Farm 4  |
+| :---           | ---:    | ---:    | ---:    | ---:    |
+| Red Delicious  | 100,000 | 110,000 | 150,000 | 70,000  |
+| Royal Gala     | 90,000  | 100,000 | 80,000  | 60,000  |
+| Golden Muscat  | 120,000 | 100,000 | 80,000  | 100,000 |
+| KIWI           | 130,000 | 90,000  | 50,000  | 110,000 |
 
 ## Part 2. Data
 ### 2.1. Fruits Purchased by the Fruit Shop
@@ -29,9 +29,15 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2016/01/01    | Farm 1    | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
 | 2016/01/01    | Farm 2    | 200       | 20   | 10%    | 120  | 60%    | 60   | 30%    |
 | ...           | ...       | ...       | ...  | ...    | ...  | ...    | ...  | ...    |
-| 2017/12/31    | Farm 3-1  | 500       | 100  | 20%    | 350  | 70%    | 50   | 10%    |
-| 2017/12/31    | Farm 3-2  | 400       | 100  | 25%    | 280  | 70%    | 20   | 5%     |
-| 2017/12/31    | Farm 4    | 100       | 10   | 10%    | 85   | 85%    | 5    | 5%     |
+| Jan-2016      | -         | 1,500     | 300  | 20%    | 600  | 40%    | 600  | 40%    |
+
+| Purchase_Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI   | KIWI % |
+| :---:         | :---      | ---:      | ---: | ---:   | ---: | ---:   | ---:   | ---:   | 
+| ...           | ...       | ...       | ...  | ...    | ...  | ...    | ...    | ...    |
+| 2017/12/31    | Farm 3-1  | 500       | 100  | 20%    | 350  | 70%    | 50     | 10%    |
+| 2017/12/31    | Farm 3-2  | 400       | 100  | 25%    | 280  | 70%    | 20     | 5%     |
+| 2017/12/31    | Farm 4    | 100       | 10   | 10%    | 85   | 85%    | 5      | 5%     |
+| Dec-2017      | -         | 3,000     | 900  | 30%    | 600  | 20%    | 1,500  | 50%    |
 
 ## Part 3. Outline
 ### 3.1. Drop Columns 
