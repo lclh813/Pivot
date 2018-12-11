@@ -5,29 +5,39 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Table: Order History of the Fruit Shop   
 - Time: Jan-2016
 
-| Fruit_Name     |   |   | Farm 3  | Farm 4  |
-| :---           | ---:    | ---:    | ---:    | ---:    |
-| Farm 1  | 100,000 | 110,000 | 150,000 | 70,000  |
-| Farm 2     | 90,000  | 100,000 | 80,000  | 60,000  |
-| Golden Muscat  | 120,000 | 100,000 | 80,000  | 100,000 |
-| KIWI           | 130,000 | 90,000  | 50,000  | 110,000 |
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3-1 | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 100,000 | 110,000 | 150,000  | 70,000  |
+| Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
+| Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
 
+- Table: Order History of the Fruit Shop   
+- Time: Dec-2017
 
-| Fruit_Name     | Farm 1  | Farm 2  | Farm 3  | Farm 4  |
-| :---           | ---:    | ---:    | ---:    | ---:    |
-| Red Delicious  | 100,000 | 110,000 | 150,000 | 70,000  |
-| Royal Gala     | 90,000  | 100,000 | 80,000  | 60,000  |
-| Golden Muscat  | 120,000 | 100,000 | 80,000  | 100,000 |
-| KIWI           | 130,000 | 90,000  | 50,000  | 110,000 |
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
+| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
+| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
 
 ## Part 2. Data
-### 2.1. Fruits Purchased by the Fruit Shop
-| Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | Purchase_Year |
-| :---           | :---       | :---          | :---              | :---          |
-| APPL           | Apple      | APPL001       | Red Delicious     | 2016          |
-| APPL           | Apple      | APPL002       | Royal Gala        | 2017          |
-| GRAP           | Grape      | GRAP001       | Golden Muscat     | 2016, 2017    |
-| KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
+### 2.1. Background Information
+### 2.1.1. Info 1. Fruits Purchased by the Fruit Shop
+| Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | 
+| :---           | :---       | :---          | :---              | 
+| APPL           | Apple      | APPL001       | Red Delicious     | 
+| APPL           | Apple      | APPL002       | Royal Gala        | 
+| GRAP           | Grape      | GRAP001       | Golden Muscat     | 
+| KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 
+
+### 2.1.2. Info 2. Order History
+| Farm     | Purchase_Year |
+| :---     | :---          |
+| Farm 1   | 2016, 2017    |
+| Farm 2   | 2016, 2017    |
+| Farm 3-1 | 2016          |
+| Farm 3-2 | 2017          |
+| Farm 4   | 2016, 2017    |
 
 ### 2.2. Original Data
 - Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
