@@ -106,7 +106,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 #### 3.2.1. Drop Column
 - Drop ***Purchase_Date*** which is of no use for pivot analysis. 
 #### 3.2.2. Create Pivot Table
-- Set ***Fruit_Type_ID*** at row axis and ***Supplier*** at the column axis. 
+- Set ***Fruit_Type_ID*** at row axis and ***Supplier*** at column axis. 
 #### 3.2.3. Rename Columns
 - ***Apple*** purchased in 2016 is ***Red Delicious*** and ***Royal Gala*** in 2017. 
 #### 3.2.4. Sum up Rows
