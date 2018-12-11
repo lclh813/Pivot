@@ -63,7 +63,8 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | Dec-2017      | -       | 18,000 | 9,000 | 50%   | 2,000 | 11%   | 3,000 | 17%   | 4,000 | 22%   |
 
 ## Part 3. Outline
-### 3.1. Drop Columns 
+### 3.1. Clean Dataset
+### 3.1.1. Drop Columns 
 - Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
 - Tool: Python ```drop```
 
@@ -76,7 +77,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 3-2  | 100  | 280  | 20   |
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
 
-### 3.2. Reshape Dataframe
+### 3.1.2. Reshape Dataframe
 - Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase_Date``` and ```Farm``` remain at the header. 
 - Tool: Python ```melt``` 
  
@@ -90,14 +91,19 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | 2017/12/31    | Farm 4    | GRAP          | 85  |
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
-### 3.3. Pivot Analysis
-#### 3.3.1. Drop Column
+### 3.1.3. Data Type Conversion
+#### 3.1.3.1. Conversion to String
+#### 3.1.3.2. Remove Thousand Separator
+#### 3.1.3.3. Conversion to Integer
+
+### 3.2. Pivot Analysis
+#### 3.2.1. Drop Column
 - Drop ```Purchase_Date``` which is of no use for pivot analysis. 
-#### 3.3.2. Create Pivot Table
+#### 3.2.2. Create Pivot Table
 - Set ```Fruit_Type_ID``` at row axis and ```Farm``` at the column axis. 
-#### 3.3.3. Rename Columns
+#### 3.2.3. Rename Columns
 - ```Apple``` purchased in 2016 is ```Red Delicious``` and ```Royal Gala``` in 2017. 
-#### 3.3.4. Sum up Rows
+#### 3.2.4. Sum up Rows
 - Add ```Farm 3-1``` and ```Farm 3-2``` together to get ```Farm3```.
 - Tool: Python ```drop``` ```if``` ```pivot_table```
 
