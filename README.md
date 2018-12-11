@@ -24,12 +24,12 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 ### 2.2. Original Data
 - Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the selected month.
 
-| Purchase_Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
-| :---:         | :---     | ---:      | ---: | ---:   | ---: | ---:   | ---: | ---:   |       
-| 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp;      | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
-| 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp;      | 200       | 20   | 10%    | 120  | 60%    | 60   | 30%    |
-| ...           | ... &nbsp;&nbsp;&nbsp;      | ...       | ...  | ...    | ...  | ...    | ...  | ...    |
-| Jan-2016      | - &nbsp;&nbsp;&nbsp;        | 1,500     | 300  | 20%    | 600  | 40%    | 600  | 40%    |
+| Purchase_Date | Farm                      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
+| :---:         | :---                      | ---:      | ---: | ---:   | ---: | ---:   | ---: | ---:   |       
+| 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
+| 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200       | 20   | 10%    | 120  | 60%    | 60   | 30%    |
+| ...           | ... &nbsp;&nbsp;&nbsp;    | ...       | ...  | ...    | ...  | ...    | ...  | ...    |
+| Jan-2016      | - &nbsp;&nbsp;&nbsp;      | 1,500     | 300  | 20%    | 600  | 40%    | 600  | 40%    |
 
 | Purchase_Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI   | KIWI % |
 | :---:         | :---      | ---:      | ---: | ---:   | ---: | ---:   | ---:   | ---:   | 
