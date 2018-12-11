@@ -23,6 +23,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 ## Part 2. Data
 ### 2.1. Background Information
 > ***2.1.1. Info 1. Fruits Purchased by the Fruit Shop***
+
 | Fruit_Type_ID  | Fruit_Type | Fruit_Name_ID | Fruit_Name        | 
 | :---           | :---       | :---          | :---              | 
 | APPL           | Apple      | APPL001       | Red Delicious     | 
@@ -31,6 +32,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 
 
 > ***2.1.2. Info 2. Order History***
+
 | Supplier | Purchase_Year |
 | :---     | :---          |
 | Farm 1   | 2016, 2017    |
