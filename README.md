@@ -33,16 +33,17 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
 
+| Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
+| :---:         | :---                      | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
+| 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100    | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10    | 10%   |
+| 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200    | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
+| 2016/01/01    | Farm 3 &nbsp;&nbsp;&nbsp; | 300    | 30    | 10%   | 60    | 20%   | 105   | 35%   | 105   | 35%   |
+| 2016/01/01    | Farm 4 &nbsp;&nbsp;&nbsp; | 400    | 40    | 10%   | 60    | 15%   | 200   | 50%   | 100   | 25%   |
+| ...           | ... &nbsp;&nbsp;&nbsp;    | ...    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
+| Jan-2016      | - &nbsp;&nbsp;&nbsp;      | 15,000 | 1,500 | 10%   | 1,500 | 10%   | 6,000 | 40%   | 6,000 | 40%   |
 
 | Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
-| :---:         | :---                      | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
-| 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100   | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10    | 10%   |
-| 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200   | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
-| ...           | ... &nbsp;&nbsp;&nbsp;    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
-| Jan-2016      | - &nbsp;&nbsp;&nbsp;      | 1,500 | 150   | 10%   | 150   | 10%   | 600   | 40%   | 600   | 40%   |
-
-| Purchase_Date | Farm      | Total Qty | APPL002 | APPL % | GRAP | GRAP % | KIWI   | KIWI % |
-| :---:         | :---      | ---:      | ---:    | ---:   | ---: | ---:   | ---:   | ---:   | 
+| :---:         | :---                      | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ...           | ...       | ...       | ...     | ...    | ...  | ...    | ...    | ...    |
 | 2017/12/31    | Farm 3-1  | 500       | 100     | 20%    | 350  | 70%    | 50     | 10%    |
 | 2017/12/31    | Farm 3-2  | 400       | 100     | 25%    | 280  | 70%    | 20     | 5%     |
