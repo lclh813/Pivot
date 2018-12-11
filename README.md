@@ -22,6 +22,8 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 | KIWI           | Kiwifruit  | KIWI001       | Sungold Kiwifruit | 2016, 2017    |
 
 ### 2.2. Original Data
+- Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the selected month.
+
 | Purchase_Date | Farm      | Total Qty | APPL | APPL % | GRAP | GRAP % | KIWI | KIWI % |
 | :---:         | :---      | ---:      | ---: | ---:   | ---: | ---:   | ---: | ---:   |       
 | 2016/01/01    | Farm 1    | 100       | 20   | 20%    | 70   | 70%    | 10   | 10%    |
