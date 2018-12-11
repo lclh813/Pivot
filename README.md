@@ -50,7 +50,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2016/01/01    | Farm 2  | 200    | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
 | 2016/01/01    | Farm 3  | 300    | 30    | 10%   | 60    | 20%   | 105   | 35%   | 105   | 35%   |
 | 2016/01/01    | Farm 4  | 400    | 40    | 10%   | 60    | 15%   | 200   | 50%   | 100   | 25%   |
-| ...           | ...     | ...    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
+| .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br> | .<br>.<br>.<br>  | .<br>.<br>.<br>  | .<br>.<br>.<br> | .<br>.<br>.<br>  | .<br>.<br>.<br>  | .<br>.<br>.<br> |
 | Jan-2016      | -       | 15,000 | 1,500 | 10%   | 1,500 | 10%   | 6,000 | 40%   | 6,000 | 40%   |
 
 | Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
@@ -73,23 +73,25 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2016/01/01    | Farm 1    | 10      | 10      | 70   | 10   |
 | 2016/01/01    | Farm 2    | 10      | 10      | 120  | 60   |
 | ...           | ...       | ...     | ...     | ...  | ...  |
-| 2017/12/31    | Farm 3-1  | 100  | 350  | 50   | 
-| 2017/12/31    | Farm 3-2  | 100  | 280  | 20   |
+| 2017/12/31    | Farm 3    | 100     | 350  | 50   | 
+
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
 
 ### 3.1.2. Reshape Dataframe
-- Prepare to move ***Fruit_Type_ID*** to the row axis while ***Purchase_Date*** and ***Supplier*** remain at the header. 
+- Prepare to move ***Fruit_Name_ID*** to the row axis while ***Purchase_Date*** and ***Supplier*** remain at the header. 
 - Tool: Python ```melt``` 
  
-| Purchase_Date | Supplier  | Fruit_Type_ID | Qty |
+| Purchase_Date | Supplier  | Fruit_Name_ID | Qty |
 | :---:         | ---       | :---          | ---:| 
-| 2016/01/01    | Farm 1    | APPL          | 20  | 
+| 2016/01/01    | Farm 1    | APPL001       | 10  |
+| 2016/01/01    | Farm 1    | APPL002       | 10  |
 | 2016/01/01    | Farm 1    | GRAP          | 70  |
-| 2016/01/01    | Farm 1    | KIWI          | 30  | 
+| 2016/01/01    | Farm 1    | KIWI          | 10  | 
 | ...           | ...       | ...           | ... |
-| 2017/12/31    | Farm 4    | APPL          | 10  | 
-| 2017/12/31    | Farm 4    | GRAP          | 85  |
-| 2017/12/31    | Farm 4    | KIWI          | 5   |    
+| 2017/12/31    | Farm 4    | APPL001       | 20  | 
+| 2017/12/31    | Farm 4    | APPL002       | 30  |
+| 2017/12/31    | Farm 4    | GRAP          | 100 |  
+| 2017/12/31    | Farm 4    | KIWI          | 50  | 
 
 ### 3.1.3. Data Type Conversion
 - Records in Column ***Qty*** turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers to proceed further calculation.
@@ -104,7 +106,8 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 
 ### 3.2. Pivot Analysis
 #### 3.2.1. Drop Column
-- Drop ***Purchase_Date*** which is of no use for pivot analysis. 
+- Drop ***Purchase_Date*** which is of no use for pivot analysis.
+- Tool: 
 #### 3.2.2. Create Pivot Table
 - Set ***Fruit_Type_ID*** at row axis and ***Supplier*** at column axis. 
 #### 3.2.3. Rename Columns
@@ -115,6 +118,6 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 
 ## Part 4. Steps
 ### Step 1. Preparation
-[1.Import Library]
+
 
 
