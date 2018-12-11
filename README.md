@@ -34,9 +34,9 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 
 
 
-| Purchase_Date | Farm                      | Total | APPL  | APPL  | APPL  | APPL  | GRAP  | GRAP  | KIWI | KIWI |
+| Purchase_Date | Farm | Total<br>Qty | APPL<br>001 | APPL<br>001 % | APPL<br>002 | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---                      | ---:  | :---: | :--:  | :---: | :---: | :---: | :---: | ---: | ---: |  
-|               |                           | Qty   | 001   | 001 % | 002   | 002 % | Qty   | %     | ty   | %    |
+|               |                           |    |    |  |    | 002 % |    | %     | Qty  | %    |
 | :---:         | :---                      | ---:  | :---: | :--:  | :---: | :---: | :---: | :---: | ---: | ---: |  
 | 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100   | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10   | 10%  |
 | 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200   | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60   | 30%  |
