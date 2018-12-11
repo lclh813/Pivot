@@ -32,7 +32,7 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 ### 2.2. Original Data
 - Monthly Data: There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
-| Purchase_Date | Farm                      | Total Qty | APPL001 | APPL001 % | APPL002 | APPL002 % | GRAP | GRAP % | KIWI | KIWI % |
+| Purchase_Date | Farm                      | Total Qty | APPL<br />001 | APPL001 % | APPL002 | APPL002 % | GRAP | GRAP % | KIWI | KIWI % |
 | :---:         | :---                      | ---:      | ---:    | ---:      | ---:    | ---:      | ---: | ---:   | ---: | ---:   |     | 2016/01/01    | Farm 1 &nbsp;&nbsp;&nbsp; | 100       | 10      | 10%       | 10      | 10%       | 70   | 70%    | 10   | 10%    |
 | 2016/01/01    | Farm 2 &nbsp;&nbsp;&nbsp; | 200       | 10      | 5%        | 10      | 5%        | 120  | 60%    | 60   | 30%    |
 | ...           | ... &nbsp;&nbsp;&nbsp;    | ...       | ...     | ...       | ...     | ...       | ...  | ...    | ...  | ...    |
@@ -51,11 +51,11 @@ To create a table as follows on a ```monthly``` basis to better know ```how many
 - Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
 - Tool: Python ```drop```
 
-| Purchase_Date | Farm      | APPL | GRAP | KIWI | 
-|:---:          |:---       | ---: | ---: | ---: | 
-| 2016/01/01    | Farm 1    | 20   | 70   | 30   |
-| 2016/01/01    | Farm 2    | 20   | 120  | 60   |
-| ...           | ...       | ...  | ...  | ...  |
+| Purchase_Date | Farm      | APPL001 | APPL002 | GRAP | KIWI | 
+|:---:          |:---       | ---:    | ---:    | ---: | ---: | 
+| 2016/01/01    | Farm 1    | 10      | 10      | 70   | 10   |
+| 2016/01/01    | Farm 2    | 10      | 10      | 120  | 60   |
+| ...           | ...       | ...     | ...     | ...  | ...  |
 | 2017/12/31    | Farm 3-1  | 100  | 350  | 50   | 
 | 2017/12/31    | Farm 3-2  | 100  | 280  | 20   |
 | 2017/12/31    | Farm 4    | 10   | 85   | 5    |
