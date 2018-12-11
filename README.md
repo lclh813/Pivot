@@ -116,12 +116,8 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 - Tool: Python ```if``` ```pivot_table```
 
 ## Part 4. Steps
-### Complete Code
-### Step 1. Import Library
-(https://github.com/lclh813/Pivot/blob/master/1_ImportLibrary.ipynb)
-### Step 2. Import Data
-(https://github.com/lclh813/Pivot/blob/master/2_ImportData.ipynb)
-### Step 3. Clean Dataset
-(https://github.com/lclh813/Pivot/blob/master/3_CleanDataset.ipynb)
-### Step 4. Pivot Analysis
-(https://github.com/lclh813/Pivot/blob/master/4_PivotAnalysis.ipynb)
+#### Complete Code
+#### [Step 1. Import Library](https://github.com/lclh813/Pivot/blob/master/1_ImportLibrary.ipynb)
+#### [Step 2. Import Data](https://github.com/lclh813/Pivot/blob/master/2_ImportData.ipynb)
+#### [Step 3. Clean Dataset](https://github.com/lclh813/Pivot/blob/master/3_CleanDataset.ipynb)
+#### [Step 4. Pivot Analysis](https://github.com/lclh813/Pivot/blob/master/4_PivotAnalysis.ipynb)
