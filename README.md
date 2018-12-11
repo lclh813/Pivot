@@ -44,7 +44,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 ### 2.2. Original Data
 - **Monthly Data:** There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
-| Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
+| Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:   | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
 | 2016/01/01    | Farm 1  | 100    | 10    | 10%   | 10    | 10%   | 70    | 70%   | 10    | 10%   |
 | 2016/01/01    | Farm 2  | 200    | 10    | 5%    | 10    | 5%    | 120   | 60%   | 60    | 30%   |
@@ -53,7 +53,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 | ...           | ...     | ...    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
 | Jan-2016      | -       | 15,000 | 1,500 | 10%   | 1,500 | 10%   | 6,000 | 40%   | 6,000 | 40%   |
 
-| Purchase_Date | Farm | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
+| Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:   | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |
 | ...           | ...     | ...    | ...   | ...   | ...   | ...   | ...   | ...   | ...   | ...   |
 | 2017/12/31    | Farm 1  | 500    | 100   | 20%   | 200   | 40%   | 150   | 30%   | 50    | 10%   |
@@ -68,7 +68,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 - Drop columns that are not needed for further analysis which include ```Total Qty``` and those containing ```%```. 
 - Tool: Python ```drop```
 
-| Purchase_Date | Farm      | APPL001 | APPL002 | GRAP | KIWI | 
+| Purchase_Date | Supplier  | APPL001 | APPL002 | GRAP | KIWI | 
 |:---:          |:---       | ---:    | ---:    | ---: | ---: | 
 | 2016/01/01    | Farm 1    | 10      | 10      | 70   | 10   |
 | 2016/01/01    | Farm 2    | 10      | 10      | 120  | 60   |
@@ -81,7 +81,7 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 - Prepare to move ```Fruit_Type_ID``` to the row axis while ```Purchase_Date``` and ```Farm``` remain at the header. 
 - Tool: Python ```melt``` 
  
-| Purchase_Date | Farm      | Fruit_Type_ID | Qty |
+| Purchase_Date | Supplier  | Fruit_Type_ID | Qty |
 | :---:         | ---       | :---          | ---:| 
 | 2016/01/01    | Farm 1    | APPL          | 20  | 
 | 2016/01/01    | Farm 1    | GRAP          | 70  |
@@ -92,10 +92,15 @@ Create a table as follows on a ```monthly``` basis to better know ```how many```
 | 2017/12/31    | Farm 4    | KIWI          | 5   |    
 
 ### 3.1.3. Data Type Conversion
+- Records in Column ```"Qty"``` turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers to proceed further calculation.
 #### 3.1.3.1. Conversion to String
+- Tool: Python ```astype```
 #### 3.1.3.2. Remove Thousand Separator
+- Tool: Python ```apply``` ```lambda```
 #### 3.1.3.3. Conversion to Integer
+- Tool: Python ```astype```
 #### 3.1.4. Output Dataset for Analysis
+- Tool: Python ```groupby``` ```to_csv```
 
 ### 3.2. Pivot Analysis
 #### 3.2.1. Drop Column
