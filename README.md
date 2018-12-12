@@ -93,7 +93,7 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2017/12/31    | Farm 4    | KIWI          | 50  | 
 
 ### 3.1.3. Data Type Conversion
-- Records in Column ***Qty*** turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers to proceed further calculation.
+- Records in Column ***Qty*** turned out to be string objects rather than numeric values because they are formatted with thousand separator. It is necessary to convert strings to numbers before proceed further calculation.
 #### 3.1.3.1. Conversion to String
 - Tool: Python ```astype```
 #### 3.1.3.2. Remove Thousand Separator
