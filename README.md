@@ -24,7 +24,7 @@ Create a table on an ***annual*** basis to better know ***how many*** and ***fro
 | Farm 4   | 2016, 2017    | Regular       |
 
 ### 2.2. Original Data
-There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
+- There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
 | Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:    | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
@@ -42,6 +42,8 @@ There are 24 xls files in sum, one file per month with a subtotal displayed in t
 | **Dec-2017** | **-** | **18,000** | **9,000** | **50%** | **2,000** | **11%** | **3,000** | **17%** | **4,000** | **22%** |
 
 ### 2.3. Expected Result
+- Convert original ***daily*** data to ***annual*** data and sum up the result of 2016 and 2017. 
+
 ### 2.3.1. Convert Daily Data to Monthly Data
 
 > ***Table: Order History of the Fruit Shop***   
