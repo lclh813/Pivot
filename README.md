@@ -62,7 +62,7 @@ There are 24 xls files in sum, one file per month with a subtotal displayed in t
 | Grape      | 1,110   | 593     | 556      | 741     |
 | Kiwifruit  | 702     | 1,123   | 1,473    | 702     |
 
-### 2.3.2. Convert Monthly Data to Annual Data
+### 2.3.2. Convert Monthly Data to
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: 2016-2017***
