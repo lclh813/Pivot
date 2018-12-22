@@ -1,6 +1,6 @@
 # Pivot Analysis
 ## Notice
-There is a possibility that GitHub fails to display Jupyter Notebook. Should such circumstances arise, please refer to ***Part 4. Steps*** listed below for further information.
+It is possible that GitHub fails to display Jupyter Notebook. Should such circumstances arise, please refer to ***Part 4. Steps*** listed below for further information.
 ## Part 1. Objective
 Create a table on an ***annual*** basis to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017. 
 
