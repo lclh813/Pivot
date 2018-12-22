@@ -24,7 +24,7 @@ Create a table to better know ***how many*** and ***from where*** the listed fru
 | Farm 4   | 2016, 2017    | Regular       |
 
 ### 2.2. Original Data
-- ***Monthly Data:*** There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
+There are 24 xls files in sum, one file per month with a subtotal displayed in the last row, which represents total purchase for the entire month.
 
 | Purchase_Date | Supplier | Total<br>Qty | APPL<br>001 Qty | APPL<br>001 % | APPL<br>002 Qty | APPL<br>002 % | GRAP<br>Qty | GRAP<br>%  | KIWI<br>Qty | KIWI<br>% |
 | :---:         | :---:    | :---:  | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: |  
