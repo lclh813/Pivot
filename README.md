@@ -1,24 +1,6 @@
 # Pivot Analysis
 ## Part 1. Objective
-Create a table as follows on a ***monthly*** basis to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017.
-
-> ***Table: Order History of the Fruit Shop***   
-> ***Time: January, 2016***
-
-| Fruit_Type | Farm 1  | Farm 2  | Farm 3-1 | Farm 4  |
-| :---       | ---:    | ---:    | ---:     | ---:    |
-| Apple      | 100,000 | 110,000 | 150,000  | 70,000  |
-| Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
-| Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
-
-> ***Table: Order History of the Fruit Shop***   
-> ***Time: December, 2017***
-
-| Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
-| :---       | ---:    | ---:    | ---:     | ---:    |
-| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
-| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
-| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
+Create a table to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017 on a ***monthly*** basis.
 
 ## Part 2. Data
 ### 2.1. Background Information
@@ -61,6 +43,35 @@ Create a table as follows on a ***monthly*** basis to better know ***how many***
 | 2017/12/31    | Farm 3  | 300    | 90    | 30%   | 30    | 10%   | 75    | 25%   | 105   | 35%   |
 | 2017/12/31    | Farm 4  | 200    | 20    | 10%   | 30    | 15%   | 100   | 50%   | 50    | 25%   |
 | Dec-2017      | -       | 18,000 | 9,000 | 50%   | 2,000 | 11%   | 3,000 | 17%   | 4,000 | 22%   |
+
+### 2.3. Expected Result
+
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: December, 2017***
+
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
+| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
+| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
+
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: January, 2016***
+
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3-1 | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 100,000 | 110,000 | 150,000  | 70,000  |
+| Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
+| Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
+
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: 2016-2017***
+
+| Fruit_Type | Farm 1    | Farm 2    | Farm 3   | Farm 4  |
+| :---       | ---:      | ---:      | ---:     | ---:    |
+| Apple      | 1,200,000 | 1,000,000 | 130,000  | 80,000  |
+| Grape      | 900,000   | 1,100,000 | 80,000   | 90,000  |
+| Kiwifruit  | 1,250,000 | 1,000,000 | 60,000   | 50,000  |
 
 ## Part 3. Outline
 ### 3.1. Clean Dataset
