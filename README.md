@@ -43,14 +43,6 @@ Create a table to better know ***how many*** and ***from where*** the listed fru
 
 ### 2.3. Expected Result
 
-> ***Table: Order History of the Fruit Shop***   
-> ***Time: December, 2017***
-
-| Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
-| :---       | ---:    | ---:    | ---:     | ---:    |
-| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
-| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
-| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: January, 2016***
@@ -60,6 +52,16 @@ Create a table to better know ***how many*** and ***from where*** the listed fru
 | Apple      | 100,000 | 110,000 | 150,000  | 70,000  |
 | Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
 | Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
+
+> ***Table: Order History of the Fruit Shop***   
+> ***Time: December, 2017***
+
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
+| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
+| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
+
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: 2016-2017***
