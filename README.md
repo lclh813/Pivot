@@ -49,28 +49,27 @@ Create a table to better know ***how many*** and ***from where*** the listed fru
 
 | Fruit_Type | Farm 1  | Farm 2  | Farm 3-1 | Farm 4  |
 | :---       | ---:    | ---:    | ---:     | ---:    |
-| Apple      | 100,000 | 110,000 | 150,000  | 70,000  |
-| Grape      | 90,000  | 100,000 | 80,000   | 60,000  |
-| Kiwifruit  | 120,000 | 100,000 | 80,000   | 100,000 |
+| Apple      | 261     | 261     | 1,174    | 1,304   |
+| Grape      | 848     | 1,455   | 1,273    | 2,424   |
+| Kiwifruit  | 218     | 1,309   | 2,291    | 2,182   |
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: December, 2017***
 
 | Fruit_Type | Farm 1  | Farm 2  | Farm 3-2 | Farm 4  |
 | :---       | ---:    | ---:    | ---:     | ---:    |
-| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
-| Grape      | 70,000  | 110,000 | 80,000   | 90,000  |
-| Kiwifruit  | 130,000 | 110,000 | 60,000   | 50,000  |
-
+| Apple      | 4,648   | 3,718   | 1,859    | 775     |
+| Grape      | 1,110   | 593     | 556      | 741     |
+| Kiwifruit  | 702     | 1,123   | 1,473    | 702     |
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: 2016-2017***
 
-| Fruit_Type | Farm 1    | Farm 2    | Farm 3   | Farm 4  |
-| :---       | ---:      | ---:      | ---:     | ---:    |
-| Apple      | 1,200,000 | 1,000,000 | 130,000  | 80,000  |
-| Grape      | 900,000   | 1,100,000 | 80,000   | 90,000  |
-| Kiwifruit  | 1,250,000 | 1,000,000 | 60,000   | 50,000  |
+| Fruit_Type | Farm 1  | Farm 2  | Farm 3   | Farm 4  |
+| :---       | ---:    | ---:    | ---:     | ---:    |
+| Apple      | 120,000 | 100,000 | 130,000  | 80,000  |
+| Grape      | 90,000  | 110,000 | 80,000   | 90,000  |
+| Kiwifruit  | 125,000 | 100,000 | 60,000   | 50,000  |
 
 ## Part 3. Outline
 ### 3.1. Clean Dataset
