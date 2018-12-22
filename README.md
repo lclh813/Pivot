@@ -42,7 +42,7 @@ There are 24 xls files in sum, one file per month with a subtotal displayed in t
 | **Dec-2017** | **-** | **18,000** | **9,000** | **50%** | **2,000** | **11%** | **3,000** | **17%** | **4,000** | **22%** |
 
 ### 2.3. Expected Result
-
+### 2.3.1. Convert Daily Data to Monthly Data
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: January, 2016***
@@ -61,6 +61,8 @@ There are 24 xls files in sum, one file per month with a subtotal displayed in t
 | Apple      | 4,648   | 3,718   | 1,859    | 775     |
 | Grape      | 1,110   | 593     | 556      | 741     |
 | Kiwifruit  | 702     | 1,123   | 1,473    | 702     |
+
+### 2.3.2. Convert Monthly Data to Annual Data
 
 > ***Table: Order History of the Fruit Shop***   
 > ***Time: 2016-2017***
