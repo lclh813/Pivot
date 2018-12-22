@@ -1,6 +1,6 @@
 # Pivot Analysis
 ## Part 1. Objective
-Create a table on an ***annual*** basis to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017 
+Create a table to better know ***how many*** and ***from where*** the listed fruits are purchased from 2016 to 2017. 
 
 ## Part 2. Data
 ### 2.1. Background Information
