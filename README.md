@@ -47,7 +47,8 @@ Create a table on an ***annual*** basis to better know ***how many*** and ***fro
 ### 2.3. Expected Result
 - Convert original ***daily*** data to ***annual*** data and sum up the result of 2016 and 2017. 
 
-> ***2.3.1. Convert Daily Data to Monthly Data***  
+### 2.3.1. Convert Daily Data to Monthly Data
+
 > ***Table: Order History of the Fruit Shop***     
 > ***Time: January, 2016***
 
