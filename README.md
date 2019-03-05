@@ -122,7 +122,7 @@ Create a table on an ***annual*** basis to better know ***how many*** and ***fro
 ### 3.2. Pivot Analysis
 #### 3.2.1. Drop Column
 - Drop ***Purchase_Date*** which is of no use for pivot analysis.
-- Tool: 
+- Tool: Python ```drop```
 #### 3.2.2. Create Pivot Table
 - Set ***Fruit_Type_ID*** at row axis and ***Supplier*** at column axis. 
 #### 3.2.3. Rename Columns
